@@ -1,0 +1,49 @@
+.buttonDafault {
+    button {
+        width: 217px;
+        height: 60px;
+        border-radius: 8px;
+        background: #1F1D1D;
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            background: #000000;
+            transition: all 500ms ease; 
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .buttonDafault {
+        button {
+            width: 187px;
+            height: 51px;
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 1280px) {
+    .buttonDafault {
+        button {
+            width: 167px;
+            height: 47px;
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 1196px) {
+    .buttonDafault {
+        button {
+            width: 147px;
+            height: 41px;
+            font-size: 20px;
+        }
+    }
+}

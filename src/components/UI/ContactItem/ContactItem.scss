@@ -1,0 +1,31 @@
+.footerContacts__contact {
+    margin-bottom: 8px;
+    a, span {
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .footerContacts__number:hover, .footerContacts__email:hover {
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 1680px) {
+    .footerContacts__contact {
+        margin-bottom: 10px;
+        a, span {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 1280px) {
+    .footerContacts__contact {
+        margin-bottom: 12px;
+        a, span {
+            font-size: 16px;
+        }
+    }
+}

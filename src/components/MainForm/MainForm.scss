@@ -1,0 +1,119 @@
+.connectWithUsBlock__form {
+    width: 100%;
+    height: 807px;
+    border-radius: 20px;
+    background: #F2F4F3;
+    box-shadow: 0px 0px 0px 10px rgba(90, 100, 106, 0.05);
+    padding: 175px 295px;
+    position: relative;
+    .mainForm {
+        width: 100%;
+        height: 100%;
+        .form {
+            width: 100%;
+            height: 53%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 9px;
+            .form__input {
+                display: flex;
+                flex-direction: column;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .formInput__container {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        .formInput {
+                            width: 100%;
+                            color: #A9A9A9;
+                            font-family: Manrope;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            background: #F2F4F3;
+                            border-bottom: 2px solid #070707;
+                            margin-left: 14px;
+                        }
+                        .formInput__error {
+                            margin-left: 14px;
+                            margin-bottom: 10px;
+                            height: 14px;
+                            p {
+                                color: #FF595E;
+                                font-family: Manrope;
+                                font-size: 21px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                .form__email {
+                    div {
+                        height: 100%;
+                        img {
+                            width: 36px;
+                            height: 27px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+                .form__number {
+                    margin-top: 16px;
+                    div {
+                        height: 100%;
+                        img {
+                            margin-bottom: 18px;
+                        }
+                    }
+                }
+            }
+            .form__buttonAndSocial {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+@media (max-width: 1868px) {
+    .connectWithUsBlock__form {
+        padding: 175px 226px;   
+    }        
+}
+@media (max-width: 1680px) {
+    .connectWithUsBlock__form {
+        padding: 175px 176px;    
+    }       
+}
+@media (max-width: 1547px) {
+    .connectWithUsBlock__form {
+        padding: 175px 156px;    
+    }        
+}
+@media (max-width: 1440px) {
+    .connectWithUsBlock__form {
+        height: 746px;
+        padding: 124px 140px;    
+    }       
+}
+@media (max-width: 1280px) {
+    .connectWithUsBlock__form {
+        height: 596px;
+        padding: 94px 134px;    
+    }         
+}
+@media (max-width: 1196px) {
+    .connectWithUsBlock__form {
+        height: 546px;
+        padding: 64px 128px;     
+    }       
+}

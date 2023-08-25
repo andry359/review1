@@ -1,0 +1,57 @@
+.mainFormHead__title {
+    min-width: 76.2%;
+    h2 {
+        color: #000;
+        font-family: Manrope;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 1868px) {
+    .mainFormHead__title {
+        h2 {
+            font-size: 66px;
+        }
+    }        
+}
+@media (max-width: 1680px) {
+    .mainFormHead__title {
+        h2 {
+            font-size: 66px;
+        }
+    }         
+}
+@media (max-width: 1547px) {
+    .mainFormHead__title {
+        h2 {
+            font-size: 64px;
+        }
+    }         
+}
+@media (max-width: 1440px) {
+    .mainFormHead__title {
+        h2 {
+            font-size: 50px;
+            line-height: 65px;
+        }
+    }        
+}
+@media (max-width: 1280px) {
+    .mainFormHead__title {
+        h2 {
+            font-size: 48px;
+            line-height: 62px;
+        }
+    }      
+}
+@media (max-width: 1196px) {
+    .mainFormHead__title {
+        h2 {
+            font-size: 46px;
+            line-height: 60px;
+        }
+    }         
+}

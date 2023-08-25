@@ -1,0 +1,24 @@
+.mainFormHead {
+    width: 100%;
+    height: 46.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@media (max-width: 1440px) {
+    .mainFormHead {
+        height: 41.8%;
+    }
+}
+@media (max-width: 1280px) {
+    .mainFormHead {
+        height: 40.8%;
+    }
+}
+@media (max-width: 1196px) {
+    .mainFormHead {
+        height: 40.8%;
+    }
+}

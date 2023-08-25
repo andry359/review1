@@ -1,0 +1,196 @@
+.contactUsBlock {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .contactUsBlock__text {
+        max-width: 80%;
+        p {
+            color: #070707;
+            font-family: Manrope;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            .contactUsBlock__buttonText {
+                border-radius: 60px;
+                background: #1F1D1D;
+                span {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Manrope;
+                    font-size: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    padding: 21px 47px;
+                }
+                &:hover {
+                    background: #000000;
+                    transition: all 500ms ease; 
+                }
+            }
+        }
+    }
+    .contactUsBlock__button {
+        .contactUsBlock__buttonArrow {
+            width: 248px;
+            height: 248px;
+            border-radius: 50%;
+            background: #1F1D1D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                padding: 57px 77px;
+                width: 100%;
+            }
+            &:hover {
+                background: #000000;
+                transition: all 500ms ease; 
+            }
+        }
+    }
+}
+
+@media (max-width:  1820px) {
+    .contactUsBlock {
+        .contactUsBlock__text {
+            p {
+                font-size: 56px;
+                .contactUsBlock__buttonText {
+                    span {
+                        font-size: 56px;
+                        padding: 19px 41px;
+                    }
+                }
+            }
+        }
+        .contactUsBlock__button {
+            .contactUsBlock__buttonArrow {
+                width: 218px;
+                height: 218px;
+                img {
+                    padding: 53px 70px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:  1680px) {
+    .contactUsBlock {
+        .contactUsBlock__text {
+            p {
+                font-size: 52px;
+                .contactUsBlock__buttonText {
+                    span {
+                        font-size: 52px;
+                        padding: 18px 33px;
+                    }
+                }
+            }
+        }
+        .contactUsBlock__button {
+            .contactUsBlock__buttonArrow {
+                width: 195px;
+                height: 195px;
+                img {
+                    padding: 48px 63px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:  1547px) {
+    .contactUsBlock {
+        .contactUsBlock__text {
+            p {
+                font-size: 50px;
+                .contactUsBlock__buttonText {
+                    span {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+        .contactUsBlock__button {
+            .contactUsBlock__buttonArrow {
+                width: 180px;
+                height: 180px;
+                img {
+                    padding: 44px 58px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:  1440px) {
+    .contactUsBlock {
+        .contactUsBlock__text {
+            p {
+                font-size: 42px;
+                .contactUsBlock__buttonText {
+                    span {
+                        font-size: 42px;
+                    }
+                }
+            }
+        }
+        .contactUsBlock__button {
+            padding-right: 30px;
+            .contactUsBlock__buttonArrow {
+                width: 150px;
+                height: 150px;
+                img {
+                    padding: 34px 46px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:  1280px) {
+    .contactUsBlock {
+        .contactUsBlock__text {
+            p {
+                font-size: 38px;
+                .contactUsBlock__buttonText {
+                    span {
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+        .contactUsBlock__button {
+            padding-right: 50px;
+            .contactUsBlock__buttonArrow {
+                width: 126px;
+                height: 126px;
+            }
+        }
+    }
+}
+@media (max-width:  1196px) {
+    .contactUsBlock {
+        .contactUsBlock__text {
+            p {
+                font-size: 36px;
+                .contactUsBlock__buttonText {
+                    span {
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+        .contactUsBlock__button {
+            padding-right: 60px;
+            .contactUsBlock__buttonArrow {
+                width: 116px;
+                height: 116px;
+                img {
+                    padding: 28px 37px;
+                }
+            }
+        }
+    }
+}
